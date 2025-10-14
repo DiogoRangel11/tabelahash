@@ -9,8 +9,6 @@ if __name__ == "__main__":
             nome = linha.strip()
             hs.inserir(nome)
         freq = hs.size()
-        
-    # Gerar dados de exemplo
     dados = freq
     print(dados)
     letras = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -24,3 +22,4 @@ if __name__ == "__main__":
             
 
             
+
