@@ -1,5 +1,5 @@
 """
-Main_comparativo.py
+    Main_comparativo.py
 
     Este script principal executa os experimentos de tabelas hash com
     diferentes valores de M (primos e não-primos) para analisar a

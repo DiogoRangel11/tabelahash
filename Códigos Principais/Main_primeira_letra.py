@@ -1,5 +1,5 @@
 """
-Main_primeira_letra.py
+    Main_primeira_letra.py
 
     Este script principal executa o experimento focado na questão 1 do
     trabalho. Ele lê os nomes do arquivo de alunos, insere-os em uma
