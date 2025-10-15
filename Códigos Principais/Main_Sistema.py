@@ -1,4 +1,4 @@
-from hash2 import HashTable
+from Hash_Sistema import HashTable
 import matplotlib.pyplot as plt
 
 if __name__ == "__main__":

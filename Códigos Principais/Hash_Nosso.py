@@ -70,4 +70,30 @@ class HashTable:
                     aux = aux.next
                 print(" null")
 
+    
+    def colisoes(self):
+    # Inicializa contagem de colisões para cada letra
+        contagem = {chr(i + 65): 0 for i in range(26)}  # 'A' a 'Z'
+
+    # percorre todas as posições da tabela hash
+        for head in self.table:
+            atual = head
+            while atual is not None:
+                letra = atual.key[0].upper()  # pega a primeira letra da chave
+                if letra in contagem:
+                    contagem[letra] += 1
+                atual = atual.next
+
+    # verifica se a tabela está vazia
+        if not contagem:
+            return [], 0, [], 0
+
+        max_val = max(contagem.values())
+        min_val = min(contagem.values())
+
+        letras_mais = [letra for letra, val in contagem.items() if val == max_val]
+        letras_menos = [letra for letra, val in contagem.items() if val == min_val]
+
+        return letras_mais, max_val, letras_menos, min_val
+
 
