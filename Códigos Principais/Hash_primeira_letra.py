@@ -1,3 +1,12 @@
+"""
+Hash_primeira_letra.py
+
+    Este arquivo contém uma implementação específica da classe HashTable,
+    onde a função de hashing (_hash) é baseada na primeira letra da chave.
+    Foi projetado para ser usado em experimentos que exigem este tipo de
+    função hash, como a questão 1 e 2 do trabalho.
+"""
+
 class Node:
     def __init__(self, key):
         self.key = key

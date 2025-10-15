@@ -1,3 +1,12 @@
+"""
+    Hash_tabela_encadeamento.py
+
+    Este arquivo contém a implementação da classe HashTable.
+    A tabela hash utiliza o método de encadeamento para tratar colisões.
+    Inclui as classes Node e HashTable, com os métodos essenciais para
+    inserção, busca, e outras operações de análise.
+"""
+
 class Node:
     def __init__(self, key):
         self.key = key

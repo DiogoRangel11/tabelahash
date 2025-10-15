@@ -1,4 +1,13 @@
-from Hash_Sistema import HashTable
+"""
+Main_primeira_letra.py
+
+    Este script principal executa o experimento focado na questão 1 do
+    trabalho. Ele lê os nomes do arquivo de alunos, insere-os em uma
+    tabela hash com M=26 e uma função de hash baseada na primeira letra,
+    e, em seguida, gera um histograma da distribuição.
+"""
+
+from Hash_primeira_letra import HashTable
 import matplotlib.pyplot as plt
 
 if __name__ == "__main__":

@@ -1,4 +1,14 @@
-from Hash_Nosso import HashTable
+"""
+Main_comparativo.py
+
+    Este script principal executa os experimentos de tabelas hash com
+    diferentes valores de M (primos e não-primos) para analisar a
+    distribuição e o espalhamento dos dados. Ele utiliza a função hash
+    discutida em sala de aula para comparar o desempenho e responder às
+    questões 3 e 4 do trabalho.
+"""
+
+from Hash_tabela_encadeamento import HashTable
 import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
