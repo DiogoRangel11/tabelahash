@@ -3,7 +3,8 @@
 ### Universidade Federal do Piauí (UFPI) – CCN – Departamento de Computação
 
 📅 **Período:** 2025.2
-👨‍🏫 **Disciplina:** Estruturas de Dados
+📚 **Disciplina:** Estruturas de Dados
+🧑‍🏫 **Professor:** Raimundo Santos Moura
 
 ---
 
